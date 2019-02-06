@@ -78,5 +78,5 @@ def get_average_age_for_season(data, season)
   }
   
   binding.pry
-  return (sum / count).to_ceil
+  return (sum / count).
 end
