@@ -52,7 +52,7 @@ def get_occupation(data, hometown)
     if seasons == season
       peopleArr.each { |person| 
         person.each { |info, info_data|
-          if info_data == 'Winner'
+          if info_data == hometown
             nameArr = person["name"].split(" ")
             return nameArr[0]
           end
