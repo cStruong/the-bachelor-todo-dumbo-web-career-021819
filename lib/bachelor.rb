@@ -68,7 +68,7 @@ def get_average_age_for_season(data, season)
     if seasons == season
     peopleArr.each { |person| 
       person.each { |info, info_data|
-        if info == age
+        if info == "age"
           sum += age.to_i
           count += 1
         end
