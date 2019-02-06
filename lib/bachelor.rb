@@ -49,7 +49,6 @@ end
 def get_occupation(data, hometown)
    
   data.each { |seasons, peopleArr| 
-    if seasons == season
       peopleArr.each { |person| 
         person.each { |info, info_data|
           if info_data == hometown
@@ -57,7 +56,6 @@ def get_occupation(data, hometown)
           end
         }
       }
-    end
   }
   
 end
