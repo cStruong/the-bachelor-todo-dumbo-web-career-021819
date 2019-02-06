@@ -53,7 +53,7 @@ def get_occupation(data, hometown)
       peopleArr.each { |person| 
         person.each { |info, info_data|
           if info_data == hometown
-            return person["name"]
+            return person["occupation"]
           end
         }
       }
