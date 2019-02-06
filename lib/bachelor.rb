@@ -77,5 +77,5 @@ def get_average_age_for_season(data, season)
   end
   }
   
-  return (sum.to_f / count).ceil
+  return (sum.to_f / count.to_f ).ceil
 end
