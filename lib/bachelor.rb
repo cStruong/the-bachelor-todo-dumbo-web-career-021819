@@ -53,8 +53,7 @@ def get_occupation(data, hometown)
       peopleArr.each { |person| 
         person.each { |info, info_data|
           if info_data == hometown
-            nameArr = person["name"].split(" ")
-            return nameArr[0]
+            return person["name"]
           end
         }
       }
